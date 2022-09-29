@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA41415628E4BB39004C57B4 /* NewTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41415528E4BB39004C57B4 /* NewTrackViewController.swift */; };
+		FA41415828E4BB4F004C57B4 /* SecondTrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA41415728E4BB4F004C57B4 /* SecondTrackViewController.swift */; };
+		FA41415B28E5FB52004C57B4 /* Busido_-_Pervaya_zapoved_samuraya_(Gybka.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA41415A28E5FB52004C57B4 /* Busido_-_Pervaya_zapoved_samuraya_(Gybka.com).mp3 */; };
+		FA41415D28E5FE46004C57B4 /* Alessandro_Safina_Romano_Musumarra_-_Luna_Tu_48390227.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA41415C28E5FE46004C57B4 /* Alessandro_Safina_Romano_Musumarra_-_Luna_Tu_48390227.mp3 */; };
 		FA59298F28DBA42300998B25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59298E28DBA42300998B25 /* AppDelegate.swift */; };
 		FA59299128DBA42300998B25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59299028DBA42300998B25 /* SceneDelegate.swift */; };
 		FA59299328DBA42300998B25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA59299228DBA42300998B25 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA41415528E4BB39004C57B4 /* NewTrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrackViewController.swift; sourceTree = "<group>"; };
+		FA41415728E4BB4F004C57B4 /* SecondTrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTrackViewController.swift; sourceTree = "<group>"; };
+		FA41415A28E5FB52004C57B4 /* Busido_-_Pervaya_zapoved_samuraya_(Gybka.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Busido_-_Pervaya_zapoved_samuraya_(Gybka.com).mp3"; sourceTree = "<group>"; };
+		FA41415C28E5FE46004C57B4 /* Alessandro_Safina_Romano_Musumarra_-_Luna_Tu_48390227.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Alessandro_Safina_Romano_Musumarra_-_Luna_Tu_48390227.mp3"; sourceTree = "<group>"; };
 		FA59298B28DBA42300998B25 /* UIKitdz1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitdz1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA59298E28DBA42300998B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA59299028DBA42300998B25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA41415928E5FAFF004C57B4 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				FA41415A28E5FB52004C57B4 /* Busido_-_Pervaya_zapoved_samuraya_(Gybka.com).mp3 */,
+				FA41415C28E5FE46004C57B4 /* Alessandro_Safina_Romano_Musumarra_-_Luna_Tu_48390227.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		FA59298228DBA42300998B25 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +73,12 @@
 		FA59298D28DBA42300998B25 /* UIKitdz1 */ = {
 			isa = PBXGroup;
 			children = (
+				FA41415928E5FAFF004C57B4 /* Music */,
 				FA59298E28DBA42300998B25 /* AppDelegate.swift */,
 				FA59299028DBA42300998B25 /* SceneDelegate.swift */,
 				FA59299228DBA42300998B25 /* ViewController.swift */,
+				FA41415528E4BB39004C57B4 /* NewTrackViewController.swift */,
+				FA41415728E4BB4F004C57B4 /* SecondTrackViewController.swift */,
 				FA59299428DBA42300998B25 /* Main.storyboard */,
 				FA59299728DBA42500998B25 /* Assets.xcassets */,
 				FA59299928DBA42500998B25 /* LaunchScreen.storyboard */,
@@ -127,6 +147,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA59299B28DBA42500998B25 /* LaunchScreen.storyboard in Resources */,
+				FA41415D28E5FE46004C57B4 /* Alessandro_Safina_Romano_Musumarra_-_Luna_Tu_48390227.mp3 in Resources */,
+				FA41415B28E5FB52004C57B4 /* Busido_-_Pervaya_zapoved_samuraya_(Gybka.com).mp3 in Resources */,
 				FA59299828DBA42500998B25 /* Assets.xcassets in Resources */,
 				FA59299628DBA42300998B25 /* Main.storyboard in Resources */,
 			);
@@ -161,7 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA59299328DBA42300998B25 /* ViewController.swift in Sources */,
+				FA41415628E4BB39004C57B4 /* NewTrackViewController.swift in Sources */,
 				FA59298F28DBA42300998B25 /* AppDelegate.swift in Sources */,
+				FA41415828E4BB4F004C57B4 /* SecondTrackViewController.swift in Sources */,
 				FA59299128DBA42300998B25 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
